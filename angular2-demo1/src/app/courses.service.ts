@@ -7,6 +7,9 @@ getCourses(): string[]{
     
     return this.courses;
 }
+saveCourses(course:string){
+  this.courses.push(course);
+}
   constructor() { }
 
 }
